@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB6CC0E918B2925500939361 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB6CC0E818B2925500939361 /* Foundation.framework */; };
+		EB6CC0EB18B2925500939361 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB6CC0EA18B2925500939361 /* CoreGraphics.framework */; };
+		EB6CC0ED18B2925500939361 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB6CC0EC18B2925500939361 /* UIKit.framework */; };
+		EB6CC0F318B2925500939361 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB6CC0F118B2925500939361 /* InfoPlist.strings */; };
+		EB6CC0F518B2925500939361 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB6CC0F418B2925500939361 /* main.m */; };
+		EB6CC0F918B2925500939361 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB6CC0F818B2925500939361 /* AppDelegate.m */; };
+		EB6CC0FC18B2925500939361 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB6CC0FA18B2925500939361 /* Main_iPhone.storyboard */; };
+		EB6CC0FF18B2925500939361 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB6CC0FD18B2925500939361 /* Main_iPad.storyboard */; };
+		EB6CC10218B2925500939361 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB6CC10118B2925500939361 /* ViewController.m */; };
+		EB6CC10418B2925500939361 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB6CC10318B2925500939361 /* Images.xcassets */; };
+		EB6CC10B18B2925500939361 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB6CC10A18B2925500939361 /* XCTest.framework */; };
+		EB6CC10C18B2925500939361 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB6CC0E818B2925500939361 /* Foundation.framework */; };
+		EB6CC10D18B2925500939361 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB6CC0EC18B2925500939361 /* UIKit.framework */; };
+		EB6CC11518B2925500939361 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB6CC11318B2925500939361 /* InfoPlist.strings */; };
+		EB6CC11718B2925500939361 /* Wine_WarriorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB6CC11618B2925500939361 /* Wine_WarriorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB6CC10E18B2925500939361 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB6CC0DD18B2925500939361 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB6CC0E418B2925500939361;
+			remoteInfo = "Wine Warrior";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB6CC0E518B2925500939361 /* Wine Warrior.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wine Warrior.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB6CC0E818B2925500939361 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EB6CC0EA18B2925500939361 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EB6CC0EC18B2925500939361 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EB6CC0F018B2925500939361 /* Wine Warrior-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Wine Warrior-Info.plist"; sourceTree = "<group>"; };
+		EB6CC0F218B2925500939361 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EB6CC0F418B2925500939361 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB6CC0F618B2925500939361 /* Wine Warrior-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Wine Warrior-Prefix.pch"; sourceTree = "<group>"; };
+		EB6CC0F718B2925500939361 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EB6CC0F818B2925500939361 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EB6CC0FB18B2925500939361 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		EB6CC0FE18B2925500939361 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		EB6CC10018B2925500939361 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EB6CC10118B2925500939361 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EB6CC10318B2925500939361 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EB6CC10918B2925500939361 /* Wine WarriorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wine WarriorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB6CC10A18B2925500939361 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EB6CC11218B2925500939361 /* Wine WarriorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Wine WarriorTests-Info.plist"; sourceTree = "<group>"; };
+		EB6CC11418B2925500939361 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EB6CC11618B2925500939361 /* Wine_WarriorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Wine_WarriorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB6CC0E218B2925500939361 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB6CC0EB18B2925500939361 /* CoreGraphics.framework in Frameworks */,
+				EB6CC0ED18B2925500939361 /* UIKit.framework in Frameworks */,
+				EB6CC0E918B2925500939361 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB6CC10618B2925500939361 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB6CC10B18B2925500939361 /* XCTest.framework in Frameworks */,
+				EB6CC10D18B2925500939361 /* UIKit.framework in Frameworks */,
+				EB6CC10C18B2925500939361 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB6CC0DC18B2925500939361 = {
+			isa = PBXGroup;
+			children = (
+				EB6CC0EE18B2925500939361 /* Wine Warrior */,
+				EB6CC11018B2925500939361 /* Wine WarriorTests */,
+				EB6CC0E718B2925500939361 /* Frameworks */,
+				EB6CC0E618B2925500939361 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB6CC0E618B2925500939361 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB6CC0E518B2925500939361 /* Wine Warrior.app */,
+				EB6CC10918B2925500939361 /* Wine WarriorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB6CC0E718B2925500939361 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB6CC0E818B2925500939361 /* Foundation.framework */,
+				EB6CC0EA18B2925500939361 /* CoreGraphics.framework */,
+				EB6CC0EC18B2925500939361 /* UIKit.framework */,
+				EB6CC10A18B2925500939361 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB6CC0EE18B2925500939361 /* Wine Warrior */ = {
+			isa = PBXGroup;
+			children = (
+				EB6CC0F718B2925500939361 /* AppDelegate.h */,
+				EB6CC0F818B2925500939361 /* AppDelegate.m */,
+				EB6CC0FA18B2925500939361 /* Main_iPhone.storyboard */,
+				EB6CC0FD18B2925500939361 /* Main_iPad.storyboard */,
+				EB6CC10018B2925500939361 /* ViewController.h */,
+				EB6CC10118B2925500939361 /* ViewController.m */,
+				EB6CC10318B2925500939361 /* Images.xcassets */,
+				EB6CC0EF18B2925500939361 /* Supporting Files */,
+			);
+			path = "Wine Warrior";
+			sourceTree = "<group>";
+		};
+		EB6CC0EF18B2925500939361 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB6CC0F018B2925500939361 /* Wine Warrior-Info.plist */,
+				EB6CC0F118B2925500939361 /* InfoPlist.strings */,
+				EB6CC0F418B2925500939361 /* main.m */,
+				EB6CC0F618B2925500939361 /* Wine Warrior-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EB6CC11018B2925500939361 /* Wine WarriorTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB6CC11618B2925500939361 /* Wine_WarriorTests.m */,
+				EB6CC11118B2925500939361 /* Supporting Files */,
+			);
+			path = "Wine WarriorTests";
+			sourceTree = "<group>";
+		};
+		EB6CC11118B2925500939361 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB6CC11218B2925500939361 /* Wine WarriorTests-Info.plist */,
+				EB6CC11318B2925500939361 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB6CC0E418B2925500939361 /* Wine Warrior */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB6CC11A18B2925500939361 /* Build configuration list for PBXNativeTarget "Wine Warrior" */;
+			buildPhases = (
+				EB6CC0E118B2925500939361 /* Sources */,
+				EB6CC0E218B2925500939361 /* Frameworks */,
+				EB6CC0E318B2925500939361 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wine Warrior";
+			productName = "Wine Warrior";
+			productReference = EB6CC0E518B2925500939361 /* Wine Warrior.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB6CC10818B2925500939361 /* Wine WarriorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB6CC11D18B2925500939361 /* Build configuration list for PBXNativeTarget "Wine WarriorTests" */;
+			buildPhases = (
+				EB6CC10518B2925500939361 /* Sources */,
+				EB6CC10618B2925500939361 /* Frameworks */,
+				EB6CC10718B2925500939361 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB6CC10F18B2925500939361 /* PBXTargetDependency */,
+			);
+			name = "Wine WarriorTests";
+			productName = "Wine WarriorTests";
+			productReference = EB6CC10918B2925500939361 /* Wine WarriorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB6CC0DD18B2925500939361 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Sony Theakanath";
+				TargetAttributes = {
+					EB6CC10818B2925500939361 = {
+						TestTargetID = EB6CC0E418B2925500939361;
+					};
+				};
+			};
+			buildConfigurationList = EB6CC0E018B2925500939361 /* Build configuration list for PBXProject "Wine Warrior" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB6CC0DC18B2925500939361;
+			productRefGroup = EB6CC0E618B2925500939361 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB6CC0E418B2925500939361 /* Wine Warrior */,
+				EB6CC10818B2925500939361 /* Wine WarriorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB6CC0E318B2925500939361 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB6CC0FF18B2925500939361 /* Main_iPad.storyboard in Resources */,
+				EB6CC10418B2925500939361 /* Images.xcassets in Resources */,
+				EB6CC0FC18B2925500939361 /* Main_iPhone.storyboard in Resources */,
+				EB6CC0F318B2925500939361 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB6CC10718B2925500939361 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB6CC11518B2925500939361 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB6CC0E118B2925500939361 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB6CC10218B2925500939361 /* ViewController.m in Sources */,
+				EB6CC0F918B2925500939361 /* AppDelegate.m in Sources */,
+				EB6CC0F518B2925500939361 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB6CC10518B2925500939361 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB6CC11718B2925500939361 /* Wine_WarriorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB6CC10F18B2925500939361 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB6CC0E418B2925500939361 /* Wine Warrior */;
+			targetProxy = EB6CC10E18B2925500939361 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB6CC0F118B2925500939361 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB6CC0F218B2925500939361 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EB6CC0FA18B2925500939361 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB6CC0FB18B2925500939361 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		EB6CC0FD18B2925500939361 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB6CC0FE18B2925500939361 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		EB6CC11318B2925500939361 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB6CC11418B2925500939361 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB6CC11818B2925500939361 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB6CC11918B2925500939361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB6CC11B18B2925500939361 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wine Warrior/Wine Warrior-Prefix.pch";
+				INFOPLIST_FILE = "Wine Warrior/Wine Warrior-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EB6CC11C18B2925500939361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wine Warrior/Wine Warrior-Prefix.pch";
+				INFOPLIST_FILE = "Wine Warrior/Wine Warrior-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EB6CC11E18B2925500939361 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Wine Warrior.app/Wine Warrior";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wine Warrior/Wine Warrior-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Wine WarriorTests/Wine WarriorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EB6CC11F18B2925500939361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Wine Warrior.app/Wine Warrior";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Wine Warrior/Wine Warrior-Prefix.pch";
+				INFOPLIST_FILE = "Wine WarriorTests/Wine WarriorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB6CC0E018B2925500939361 /* Build configuration list for PBXProject "Wine Warrior" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB6CC11818B2925500939361 /* Debug */,
+				EB6CC11918B2925500939361 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB6CC11A18B2925500939361 /* Build configuration list for PBXNativeTarget "Wine Warrior" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB6CC11B18B2925500939361 /* Debug */,
+				EB6CC11C18B2925500939361 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EB6CC11D18B2925500939361 /* Build configuration list for PBXNativeTarget "Wine WarriorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB6CC11E18B2925500939361 /* Debug */,
+				EB6CC11F18B2925500939361 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB6CC0DD18B2925500939361 /* Project object */;
+}
