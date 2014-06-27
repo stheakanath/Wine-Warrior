@@ -7,7 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreLocation/CoreLocation.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UITableViewController <CLLocationManagerDelegate> {
+    NSMutableArray *interfaceArray;
+    CLLocationManager *locationManager;
+    CLGeocoder *geocoder;
+    CLPlacemark *placemark;
+    BOOL *ifregion;
+    
+}
+
+@property (nonatomic, retain) NSMutableArray *interfaceArray;
 
 @end
